@@ -9,11 +9,9 @@ body {
 }
 
 .parent {
-    /* width: 100; */
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     margin-top: 5em;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -47,12 +45,12 @@ body {
     width: 7vw;
     height: 12vh;
     display: flex;
-    background-color: brown;
+    background-color: darksalmon;
 }
 
 
 .two:hover {
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 .two:hover .a {
@@ -67,17 +65,10 @@ body {
     column-gap: 2em;
 }
 
-/* .row3 {
-    display: flex;
-    width: 100vw;
-    height: 20vh;
-    justify-content: center;
-    border: 1px solid;
-    column-gap: 2em;
-} */
 
 .a:hover {
     transform: rotate(30deg);
+    transition: transform 1s;
 }
 
 .b:hover {
@@ -131,8 +122,8 @@ body {
 }
 
 .l:hover {
-    /* transform-origin: left center; */
-    transform: skew(30deg) scaleY(2);
+
+    transform:  skewY(40deg)  translate(20px, -35px) scale(1.5,1.9);
     transition: transform 1s;
 }
 
